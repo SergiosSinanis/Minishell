@@ -9,37 +9,37 @@ Minishell is developed as a team with [Nadia Galleze](https://github.com/Nadzg) 
 
 ### Command Interpretation & Execution
 
-Path-based executable location
-Support for absolute and relative paths
-Command history navigation
+- Path-based executable location
+- Support for absolute and relative paths
+- Command history navigation
 
 ### Shell Grammar Support
 
-Quote handling (single and double quotes)
-Environment variable expansion
-Exit status access ($?)
+- Quote handling (single and double quotes)
+- Environment variable expansion
+- Exit status access ($?)
 
 ### I/O Capabilities
 
-Standard input/output redirection
-Append mode for output redirection
-Here-document functionality
-Command pipelines
+- Standard input/output redirection
+- Append mode for output redirection
+- Here-document functionality
+- Command pipelines
 
 ### Interactive Controls
 
-Signal handling (Ctrl+C, Ctrl+D, Ctrl+)
-Command history retention
+- Signal handling (Ctrl+C, Ctrl+D, Ctrl+)
+- Command history retention
 
 ### Core Built-in Commands
 
-echo: Text display with option support
-cd: Directory navigation
-pwd: Current directory reporting
-export: Environment variable management
-unset: Environment variable removal
-env: Environment listing
-exit: Shell termination
+- echo: Text display with option support
+- cd: Directory navigation
+- pwd: Current directory reporting
+- export: Environment variable management
+- unset: Environment variable removal
+- env: Environment listing
+- exit: Shell termination
 
 ## Usage Examples
 
