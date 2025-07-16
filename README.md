@@ -43,17 +43,22 @@ Minishell is developed as a team with [Nadia Galleze](https://github.com/Nadzg) 
 
 ## Usage Examples
 
+```
+make
+./minishell
+```
+
 ### Basic command execution
-minishell> ls -la
+ls -la
 
 ### I/O redirection
-minishell> cat < input.txt > output.txt
+cat < input.txt > output.txt
 
 ### Pipeline processing
-minishell> cat file.txt | grep pattern | sort
+cat file.txt | grep pattern | sort
 
 ### Environment variable usage
-minishell> echo $HOME
+echo $HOME
 
 ## Implementation Notes
 This project adheres to strict memory management practices and follows standard Unix programming conventions. The implementation focuses on reliability and correctness while maintaining a clean codebase. This implementation uses the GNU Readline library for command-line input handling. Please note that Readline is known to have its own memory management characteristics. For more information on Readline's memory management, refer to the [GNU Readline documentation](https://tiswww.case.edu/php/chet/readline/readline.html).
